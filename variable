@@ -1,5 +1,31 @@
+//code1//
+
 let a = "deepak";
 let b = "deepak";
 let c= "deepak";
 
-(a&&b&&c) ? console.log("D") : (a||b||c) ? console.log("A") : console.log("R");s
+(a&&b&&c) ? console.log("D") : (a||b||c) ? console.log("A") : console.log("R");
+
+//code2
+Given the days of the week in short format "Sun", "Mon" ... print in long format "Sunday", "Monday", ...//
+
+let Day ="Fri";
+
+switch(Day){
+    case "Sun" : console.log("Sunday");
+    break;
+    case "Mon" : console.log("Monday");
+    break;
+    case "Tue" : console.log("Tuesday");
+    break;
+    case "Wed" : console.log("Wednesday");
+    break;
+    case "Thurs" : console.log("Thursday");
+    break;
+    case "Fri" : console.log("Friday");
+    break;
+    case "Sat" : console.log("Saturday");
+    break;
+  default: console.log("Input is Wrong");
+}
+

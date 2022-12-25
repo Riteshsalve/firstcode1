@@ -1,0 +1,5 @@
+let a = "deepak";
+let b = "deepak";
+let c= "deepak";
+
+(a&&b&&c) ? console.log("D") : (a||b||c) ? console.log("A") : console.log("R");s
